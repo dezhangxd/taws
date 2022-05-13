@@ -8,17 +8,17 @@ Pkis are built on the top of the base containers satcomp-base:leader and satcomp
 
 ## How to Build
 
-To build the Mallob base container: 
+To build the Pkis base container: 
 
 1. Navigate to the `base` subdirectory.
 2. Run `docker build -t pkis-base .`
 
-To build the Mallob leader container: 
+To build the Pkis leader container: 
 
 1. Navigate to the `leader` subdirectory.
 2. Run `docker build -t pkis:leader .`
 
-To build the Mallob worker container:
+To build the Pkis worker container:
 
 1. Navigate to the `worker` subdirectory.
 2. Run `docker build -t pkis:worker .`
